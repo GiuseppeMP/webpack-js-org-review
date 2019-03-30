@@ -6,6 +6,10 @@ const produtos = [
   {
     preco: 4,
     name: "Sanduiche"
+  },
+  {
+    preco: 8,
+    name: "Coca 2L"
   }
 ];
 

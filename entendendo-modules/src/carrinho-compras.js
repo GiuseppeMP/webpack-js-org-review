@@ -1,9 +1,14 @@
 var produtos = require("./produtos.js");
 
 const calcularTotal = () => {
-  return produtos.reduce(calcularTotal, produto => {
-    calcularTotal += produto.preco;
+  console.log("Somando : ", produtos);
+  let total = 0;
+
+  produtos.forEach(produto => {
+    total += produto.preco;
   });
+
+  return total;
 };
 
 module.exports = calcularTotal;
