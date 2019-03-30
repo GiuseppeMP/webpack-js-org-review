@@ -20,6 +20,11 @@ Steps:
 4. Run webpack.
    Vamos rodar o nosso build através do webpack e verificar os resultados.
 
+5. Add babel loader
+
+npm install --save-dev babel-loader
+npm install --save-dev @babel/core @babel/preset-env
+
 ### Criar projeto npm/node
 
 Dentro da pasta endentendo-modules, vamos seguir os seguintes passos:
